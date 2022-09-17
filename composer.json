@@ -1,0 +1,21 @@
+{
+    "name": "robert/mvc-php",
+    "description": "Meu projeto MVC com autoload do composer",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\Models\\": "App/Models",
+            "App\\Views\\": "App/Views",
+            "App\\Controllers\\": "App/Controllers",
+            "Core\\": "Core"
+        }
+    },
+    "authors": [
+        {
+            "name": "Robert Gonçalves Batista",
+            "email": "robert.comunicar@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
